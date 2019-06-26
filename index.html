@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Company Name</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width:device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+        <div class="container mt-3">
+            <div class="row justify-content-center align-items-end flex-nowrap">
+                <div class="col-lg-8">
+                    <img src="images/company.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-4 justify-content-right align-self-right">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <div class="mobilehide">
+                                <i class="fas fa-envelope pt-1"></i>
+                                <span class="mobilehide">contactez-nous</span>
+                        </div>
+                        <div>
+                            <ul class="social-network d-flex">
+                                <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                                <li><a href="#"><img src="images/youtube.png" alt="youtube"></a></li>
+                                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+                                <li><a href="#"><img src="images/linkedin.png" alt="linkedin"></a></li>
+                                <li><a href="#"><img src="images/tumblr.png"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container">
+            <button class="navbar-toggler mytoggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggle" onclick="add_class()">
+              <span></span>
+              <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-5">
+                  <a class="nav-link mr-5 active" href="/#home">HOME</a>
+                </li>
+                <li class="nav-item mr-5">
+                  <a class="nav-link mr-5" href="/news">BOÎTE A OUTILS</a>
+                </li>
+                <li class="nav-item mr-5">
+                  <a class="nav-link mr-5" href="/#contact">EXPLORER</a>
+                </li>
+                <li class="nav-item mr-5">
+                  <a class="nav-link mr-5" href="/#about">ABOUT ME</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                    <div class="form-group has-search">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="fa fa-search form-control-feedback"></span>
+                    </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="banner d-flex justify-content-center align-items-center">
+            <h1 class="text-center bannertitle">LE PREMIER SITE<br><span>DES PHOTOGRAPHES INDÉPENDANTS</span></h1>
+        </div>
+    </header>
+
+    <section class="container mb-5 topnews mt-3">
+        <div class="row">
+			<div class="col-sm-8">
+				<div class="headerText">
+                    <h2 class="green fonttitle mb-4 float-left">À la une</h2><hr>
+			    </div>
+			</div>
+        </div>
+        <article class="row">
+            <div class="col-md-6">
+                <div class="news">
+                    <img src="images/expo.jpg" alt="" class="img-fluid">
+                    <h3 class="green fonttitle mt-3 newsdate">22 Juillet 2016</h3>
+                    <p class="newstitle">EXPO<br> PHOTO <br>LYON</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="content">
+                    <p>Abusus enim multitudine hominruxit multis opibus firmas et viribus, quarucis nomin primigeuae eis Assyria lingua institutores veteres indiderunt.
+                    </p>
+                    <p>Quibus occurrere bene pertinax miles explicatis ordinibus parans hastisque feriens scuta qui habitus iram pugnantium concitat et dolorem proximos iam gestu terrebat sed eum in certamen alacriter consurgentem revocavere ductores rati intempestivum anceps subire certamen cum haut longe muri distarent, quorum tutela securitas poterat in solido locari cunctorum.
+                    </p>
+                </div>
+            </div>
+        </article>
+    </section>
+    
+    <div class="jumbotron d-flex justify-content-center align-items-center">
+        <h1 class="passion"><span>je suis</span> passionné</h1>
+    </div>
+
+    <section class="blog">
+        <div class="container">
+            <div class="row">
+				<div class="col-sm-8">
+                    <h2 class="green fonttitle float-left">Actualités</h2><hr>
+				</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="blogpost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                        <div class="imgBx">
+                            <img src="images/jacques.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <a href="#" class="bloglink">22/11/2018</a>
+                            <a href="#" class="bloglink">ACTUALITES</a>
+                            <h1 class="m-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sw</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+                            <a href="#" class="btn btnD1">Lire plus</a>
+                        <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="blogpost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                        <div class="imgBx">
+                            <img src="images/singer.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <a href="#" class="bloglink">24/11/2018</a>
+                            <a href="#" class="bloglink">ACTUALITES</a>
+                            <h1 class="m-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sw</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+                            <a href="#" class="btn btnD1">Lire plus</a>
+                        <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-light">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-sm-8">
+                    <h2 class="green fonttitle float-left">Lee jeffries</h2><hr>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <ul id="hexGrid" class="mb-5">
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="#">
+                                <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt="" />
+                                <h1>This is a title</h1>
+                                <p>Some sample text about the article this hexagon leads to</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="#">
+                                <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
+                                <h1>This is a title</h1>
+                                <p>Some sample text about the article this hexagon leads to</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="#">
+                                <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt="" />
+                                <h1>This is a title</h1>
+                                <p>Some sample text about the article this hexagon leads to</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="#">
+                                <img src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg" alt="" />
+                                <h1>This is a title</h1>
+                                <p>Some sample text about the article this hexagon leads to</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="#">
+                                <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt="" />
+                                <h1>This is a title</h1>
+                                <p>Some sample text about the article this hexagon leads to</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="#">
+                                <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt="" />
+                                <h1>This is a title</h1>
+                                <p>Some sample text about the article this hexagon leads to</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="#">
+                                <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt="" />
+                                <h1>This is a title</h1>
+                                <p>Some sample text about the article this hexagon leads to</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="#">
+                                <img src="https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg" alt="" />
+                                <h1>This is a title</h1>
+                                <p>Some sample text about the article this hexagon leads to</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hex">
+                        <div class="hexIn">
+                            <a class="hexLink" href="#">
+                                <img src="https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg" alt="" />
+                                <h1>This is a title</h1>
+                                <p>Some sample text about the article this hexagon leads to</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </section>
+
+    <footer>
+        <section class="documentation pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4 class="fonttitle blue">Documentation</h4>
+                        <div class="d-flex flex-nowrap ">
+                            <a href="#" class="file"><i class="fas fa-file-download fa-3x"></i></a>
+                            <p>TÉLÉCHARGEZ LE DOSSIER DE CANDIDATURE AU STATUT NATIONAL ÉTUDIANT ENTREPRENEUR</p>
+                        </div>
+                        <div class="d-flex flex-nowrap">
+                            <a href="#" class="file"><i class="fas fa-file-download fa-3x"></i></a>
+                            <p>TÉLÉCHARGEZ LE DOSSIER DE CANDIDATURE AU PRIX PÉPITE 2016</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 class="fonttitle blue">Newsletter</h4>
+                        <form method="post" action="/feedback">
+                            <div class="form-group">
+                                <input type="email" class="form-control itemform" placeholder="EMAIL" name="mail" required maxlength="20">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control itemform" placeholder="NOM" name="lastname" required maxlength="40">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control itemform " placeholder="PRENOM" name="firstname" required maxlength="40">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name ="submit" class="btn btnSend form-control" value="S'INSCRIRE">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social">
+            <div class="container">
+                <div class="d-flex social-network justify-content-center align-items-stretch">
+                    <a href="" class="d-flex flex-fill justify-content-center align-items-center">
+                        <i class="fab fa-facebook-square fa-3x mr-2"></i>
+                        <span class="mobilehide">Facebook</span>
+                    </a>
+                    <a href="" class="d-flex flex-fill justify-content-center align-items-center">
+                        <i class="fab fa-twitter-square fa-3x mr-2"></i>
+                        <span class="mobilehide">Twitter</span>
+                    </a>
+                    <a href="" class="d-flex flex-fill justify-content-center align-items-center">
+                        <i class="fab fa-linkedin fa-3x mr-2"></i>
+                        <span class="mobilehide">Linkedin</span>
+                    </a>
+                    <a href="" class="d-flex flex-fill justify-content-center align-items-center">
+                        <i class="fab fa-youtube-square fa-3x mr-2"></i>
+                        <span class="mobilehide">Youtube</span>
+                    </a>
+                    <a href="" class="d-flex flex-fill justify-content-center align-items-center">
+                        <i class="fab fa-tumblr-square fa-3x mr-2"></i>
+                        <span class="mobilehide">Tumblr</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="endofpage pt-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-3 col-sm-6 enditem">
+                        <h3 class="pb-3">Soutenez<br> la Photo</h3>
+                        <a href="#" class="linkdon">faire un don</a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 enditem">
+                        <h3 class="pb-2">INITIATIVE PORTÉE PAR </h3>
+                        <img src="images/leaf.png" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6 enditem">
+                        <h3>RUBRIQUES</h3>
+                        <ul>
+                            <li><a href="">rubrique 1</a></li>
+                            <li><a href="">rubrique 2</a></li>
+                            <li><a href="">rubrique 3</a></li>
+                            <li><a href="">rubrique 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 enditem">
+                        <h3 class="pb-3">YOUTUBE</h3>
+                        <a href=""><img src="images/space.jpg" alt=""></a>
+                        <a href=""><img src="images/fondvert.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
